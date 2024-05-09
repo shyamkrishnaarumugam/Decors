@@ -34,3 +34,90 @@ Nav{
 .slider{
     width: 100%;
 }
+.gallery-heading{
+    /* background-color: lightgray; */
+    height: 300px;
+    /* position: absolute; */
+    font-size: 70px;
+    font-weight: bold;
+    /* transform: translate(-50%, -50%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    /* border: 3px solid green; */
+}
+.gallery-kitchen{
+  background-image: url("./assets/img/gallery-kitchen.jpg");
+ 
+  width: 100%;
+  background-size: cover;
+  transition:0.2s ease-in;
+  &:hover{
+      transform:scale(1.15);
+      background-color: rgba(255, 255, 255, 0.738);
+      color: #814882;
+      
+  }
+}
+.gallery-bedroom{
+  background-image: url("./assets/img/gallery-bedroom.jpg");
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  transition:0.2s ease-in;
+  &:hover{
+      transform:scale(1.15);
+      background-color: rgba(255, 255, 255, 0.738);
+      color: #814882;
+      
+  }
+}
+.gallery-living{
+  background-image: url("./assets/img/gallery-living.jpg");
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  transition:0.2s ease-in;
+  &:hover{
+      transform:scale(1.15);
+      background-color: rgba(255, 255, 255, 0.738);
+      color: #814882;
+      
+  }
+}
+.gallery-dining:hover{
+  background-color: rgba(255, 255, 255, 0.738);
+          color: #814882;
+}
+.gallery-dining{
+  background-image: url("./assets/img/gallery-dining.jpg");
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  max-width: 100%;
+    
+  transition:0.2s ease-in;
+      &:hover{
+          transform:scale(1.15);  
+      }
+}
+.gallery-heading-dining{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-weight: bold;
+  
+}
+.cardd{
+  overflow:hidden;
+}
+.gallery-head{
+  padding: 150px 0px;
+}
+
+.carousel-control-prev-icon{
+  display: none;
+}

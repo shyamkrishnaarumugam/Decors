@@ -34,6 +34,10 @@ Nav{
 .slider{
     width: 100%;
 }
+
+/* gallery section start */
+
+
 .gallery-heading{
     /* background-color: lightgray; */
     height: 300px;
@@ -120,9 +124,15 @@ Nav{
   padding: 150px 0px;
 }
 
+/* gallery end */
+
+
 .carousel-control-prev-icon{
   display: none;
 }
+
+/* icons start */
+
 .spacer{
   padding: 50px 0px;
 }
@@ -168,3 +178,5 @@ Nav{
 .span-text{
  color:  #814882; 
 }
+
+/* icons end  */
